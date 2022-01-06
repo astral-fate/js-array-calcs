@@ -19,14 +19,16 @@ say for example we have a list of prices of fruits we want to buy from the super
 
 function calcTip (bill) {
 
+
     if (bill >= 50 && bill <= 300){
-        return bill + 1;
+        return bill * 0.15;
     }
     else {
-       return bill + ` + 1`;
-       }
+        return bill * .20;
     }
-       
+
+
+  }     
   
   
   
