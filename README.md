@@ -24,10 +24,28 @@ function calcTip (bill) {
     }
     else {
        return bill + ` + 1`;
+       }
     }
-}
        
-   
+  
+  
+  
+then to pass these calcs that took place on the array, we pass it to the console as follows:
+
+
+
+            const bills = [20, 30, 15];
+            console.log(`each item coasts: ${bills}`);
+
+
+            //doing math on arrays
+
+            const tip = [calcTip(bills[0])+bills[0], calcTip(bills[1])+bills[1], calcTip(bills[2])+bills[2]];
+
+            console.log(`the items with fee coasts: ${tip}`);
+
+
+
    
    the output
    
