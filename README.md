@@ -49,7 +49,19 @@ then to pass these calcs that took place on the array, we pass it to the console
 
 
    
-   the output
+ notice how we did the math, by working on the index of the array, so e.g:
+ 
+                          bills[0] //is the 1st index on the array
+ 
+ by calling the name of the method here, we are returning the calcs that took place on the function, so these calcs are passed to our specfic index
+ 
+                          calcTip(bills[0])
+ 
+  
+  
+  
+  
+  the output
    
    
    ![image](https://user-images.githubusercontent.com/63984422/148391149-ab89236d-777a-484a-9b14-4751fa7897f4.png)
