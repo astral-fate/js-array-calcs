@@ -16,8 +16,29 @@ say for example we have a list of prices of fruits we want to buy from the super
  
  
  
-     if (bill >= 50 && bill <= 300){
+
+function calcTip (bill) {
+
+    if (bill >= 50 && bill <= 300){
         return bill + 1;
     }
     else {
        return bill + ` + 1`;
+    }
+}
+       
+   
+   
+   the output
+   
+   
+   ![image](https://user-images.githubusercontent.com/63984422/148391149-ab89236d-777a-484a-9b14-4751fa7897f4.png)
+
+   
+   
+   
+notice here that we have used the method return, without calling the function, and we haven't useed a console because the output will be as follows:
+
+
+![image](https://user-images.githubusercontent.com/63984422/148390701-8c46546a-b16d-4d72-85c8-bee481f1e141.png)
+
