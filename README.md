@@ -32,6 +32,10 @@ function calcTip (bill) {
   
   
   
+
+in this functtion, we asign a parameter named bill, yet we didn't asign a value to it. Hence, the value of the function's parameter, will be passed by another variable.
+
+
 then to pass these calcs that took place on the array, we pass it to the console as follows:
 
 
